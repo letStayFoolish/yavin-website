@@ -51,6 +51,28 @@
   width: 600px;
 }
 
+.to-top-btn {
+  position: fixed;
+  z-index: 20;
+  //opacity: 0;
+  width: 52px;
+  height: 52px;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: #44434a;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn {
+  &:hover {
+    background-color: #1d1d21;
+  }
+}
+
 // Tablets
 @media(max-width: 992px) {
   .xl-text {

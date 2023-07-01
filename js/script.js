@@ -1,12 +1,14 @@
 function useScroll() {
+  const toTopBtn = document.querySelector('.to-top-btn')
   const navbar = document.querySelector('.navbar');
-
 
   window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
       navbar.classList.add('navbar-sticky')
+      toTopBtn.style.opacity = '1'
     } else {
       navbar.classList.remove('navbar-sticky')
+      toTopBtn.style.opacity = '0'
     }
   })
 }
@@ -35,8 +37,12 @@ function incrementStats() {
     })
 }
 
-
+function toTheTop() {
+  document.body.scrollTop = 0
+  document.documentElement.scrollTop = 0
+}
 
 // Event Listeners
 document.addEventListener('DOMContentLoaded', useScroll)
 document.addEventListener('DOMContentLoaded', incrementStats)
+document.querySelector('.to-top-btn').addEventListener('click',toTheTop)
