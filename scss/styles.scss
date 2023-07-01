@@ -41,6 +41,11 @@
   left: -200px;
 }
 
+.details-2 .decoration-star {
+  right: -200px;
+  width: 500px;
+}
+
 // Tablets
 @media(max-width: 992px) {
   .xl-text {
@@ -70,6 +75,19 @@
 
   .image-container {
     margin-top: 20px;
+  }
+
+  .services .col-md-4 {
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .details-2 {
+    margin-top: 20px !important;
+  }
+
+  .details-2 .decoration-star {
+    top: 300px;
   }
 }
 
