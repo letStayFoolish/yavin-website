@@ -44,4 +44,4 @@ To add your own custom styles, use the `styles.scss` file.
 
 ## Deployment
 
-Feel free to check this website on [Vercel](https://yavin-website-97qecwmt3-letstayfoolish.vercel.app/).
+Feel free to check this website on [Vercel](https://yavin-website-b07ln2d4q-letstayfoolish.vercel.app/).
