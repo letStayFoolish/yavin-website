@@ -36,6 +36,11 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
+.details .decoration-star {
+  width: 500px;
+  left: -200px;
+}
+
 // Tablets
 @media(max-width: 992px) {
   .xl-text {
